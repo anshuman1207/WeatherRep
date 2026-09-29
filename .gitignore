@@ -1,0 +1,16 @@
+# AWS Keys - CRITICAL! NEVER COMMIT THIS!
+*.pem
+
+# Frontend (React/Vite)
+iot-dashboard/node_modules/
+iot-dashboard/dist/
+.DS_Store
+
+# Backend (Python/FastAPI)
+backend/__pycache__/
+backend/env/
+backend/venv/
+*.pyc
+
+# Environment variables
+.env
